@@ -8,22 +8,24 @@
 <button class="menu-t" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');n.classList.toggle('open');this.setAttribute('aria-expanded',n.classList.contains('open'))">Menu</button>
 <nav id="nav" aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="kellys-nutrition.html">Kelly's Nutrition</a></li><li><a href="providers.html">Providers</a></li><li><a href="contact.html">Contact</a></li></ul></nav><a class="btn" href="book.html">Request appointment</a></div></header>
 <main id="main"><style>
-.fnm{--mg:#c2185b;--mg2:#e0457b;--tl:#0f8a8c;--tl2:#0b5f63}
+body{background:#FBF5EE}.fnm{--mg:#D6156B;--mg2:#e8498c;--tl:#1A9AA0;--tl2:#1F3A4D;--gold:#C9A24A;--sunset:linear-gradient(90deg,#F7B7C8,#F9C79A,#F5D27A)}
+.fnm .tscript{font-family:"Great Vibes",cursive;color:var(--tl);font-size:clamp(1.8rem,4.5vw,2.6rem);margin:0}
+.fnm .goldrule{height:3px;width:120px;margin:14px auto;background:linear-gradient(90deg,transparent,var(--gold),transparent);border:0}
 .fnm .script{font-family:"Great Vibes",cursive;font-weight:400;color:var(--mg);font-size:clamp(2.2rem,6vw,3.4rem);line-height:1.1;margin:.1em 0}
 .fnm h1{font-family:"Playfair Display",Georgia,serif;color:var(--tl2);font-size:clamp(1.9rem,4.6vw,3rem)}
 .fnm h2{font-family:"Playfair Display",Georgia,serif;color:var(--tl2)}
 .fnm .eyebrow{color:var(--mg)}
-.fnm .btn{background:var(--mg)}.fnm .btn:hover{background:#9c1249}.fnm .btn.ghost{background:transparent;color:var(--tl2);border-color:var(--tl)}.fnm .btn.ghost:hover{background:var(--tl);color:#fff}
-.fhero{background:linear-gradient(180deg,#fff0f5,#fcf7f2);padding:24px 0 40px}
-.fband{background:linear-gradient(90deg,var(--tl2),var(--tl));color:#fff;text-align:center;padding:18px 12px;font-family:"Playfair Display",serif;font-size:clamp(1rem,2.6vw,1.4rem);letter-spacing:.02em}
-.fband b{color:#ffd1e0}
-.ages{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;text-align:center}.ages div{background:#fff;border:2px solid #f6c6d8;border-radius:18px;padding:18px 6px;font-weight:700;color:var(--tl2);transition:transform .25s}.ages div:hover{transform:translateY(-4px)}.ages span{display:grid;place-items:center;width:54px;height:54px;margin:0 auto 8px;border-radius:50%;background:linear-gradient(135deg,var(--mg2),var(--mg));color:#fff;font-size:1.5rem}
+.fnm .btn{background:var(--mg)}.fnm .btn:hover{background:#a90f53}.fnm a{color:var(--tl)}.fnm a.btn{color:#fff}.fnm a.btn.ghost{color:var(--tl2)}.fnm .card h3{color:var(--tl2)}.fnm .warn{border-left-color:var(--gold)}.fnm .btn.ghost{background:transparent;color:var(--tl2);border-color:var(--tl)}.fnm .btn.ghost:hover{background:var(--tl);color:#fff}
+.fhero{background:linear-gradient(180deg,rgba(247,183,200,.45),rgba(249,199,154,.3) 45%,#FBF5EE);padding:24px 0 40px}
+.fband{background:var(--sunset);color:var(--tl2);border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);text-align:center;padding:18px 12px;font-family:"Playfair Display",serif;font-size:clamp(1rem,2.6vw,1.4rem);letter-spacing:.02em}
+.fband b{color:var(--mg)}
+.ages{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;text-align:center}.ages div{background:#fff;border:2px solid #F7B7C8;border-radius:18px;padding:18px 6px;font-weight:700;color:var(--tl2);transition:transform .25s}.ages div:hover{transform:translateY(-4px)}.ages span{display:grid;place-items:center;width:54px;height:54px;margin:0 auto 8px;border-radius:50%;background:linear-gradient(135deg,var(--mg2),var(--mg));color:#fff;font-size:1.5rem}
 .rooms{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.rooms .card{border-top:4px solid var(--mg)}
 .fnm .card.feature{border-top-color:var(--tl)}
 @media(max-width:640px){.ages{grid-template-columns:repeat(3,1fr)}}
 </style><div class="fnm">
 <section class="fhero"><div class="wrap"><img class="fimg" src="img/banner.svg" alt="Foundations New Mexico, Behavioral Health Services at Roswell Medical Clinic. Stronger People, Brighter Futures." width="1600" height="595">
-<div style="text-align:center;margin-top:28px"><p class="eyebrow">Behavioral Health Services at Roswell Medical Clinic</p><h1>Foundations New Mexico — Counseling in Roswell, NM</h1><p class="script">A healthier place to land.</p><p class="lead" style="margin:0 auto">Counseling for children, teens, adults, couples, and families, with weekend appointments for when weekdays don't work.</p>
+<div style="text-align:center;margin-top:28px"><p class="tscript">at Roswell Medical Clinic</p><hr class="goldrule"><p class="eyebrow">Behavioral Health Services</p><h1>Foundations New Mexico — Counseling in Roswell, NM</h1><p class="script">A healthier place to land.</p><p class="lead" style="margin:0 auto">Counseling for children, teens, adults, couples, and families, with weekend appointments for when weekdays don't work.</p>
 <div class="cta" style="justify-content:center"><a class="btn" href="book.html?service=behavioral">Book a session</a><a class="btn ghost" href="tel:+15759146446">Call (575) 914-6446</a></div><p style="font-size:.85rem;margin-top:8px">Foundations direct line (575) 914-6446 <span class="confirm">[confirm]</span> · Clinic (575) 623-3311 · <a href="https://foundationsnewmexico.com" rel="noopener">foundationsnewmexico.com</a></p></div></div></section>
 <div class="fband">Stronger Individuals. <b>Stronger Families.</b> Stronger Communities. · One Foundation at a Time.</div>
 <section><div class="wrap"><h2 style="text-align:center">Who we see</h2><div class="ages"><div><span>✿</span>Children</div><div><span>★</span>Teens</div><div><span>◆</span>Adults</div><div><span>♥</span>Couples</div><div><span>⌂</span>Families</div></div></div></section>
